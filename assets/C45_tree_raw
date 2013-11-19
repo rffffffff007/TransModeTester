@@ -1,0 +1,174 @@
+GAccelEnergy < 1.33
+|   SpanVelocity < 2.62
+|   |   GAccelAbsMean < 1
+|   |   |   GAccelAbsMean < 0.04 : 0 (116/0) [53/0]
+|   |   |   GAccelAbsMean >= 0.04
+|   |   |   |   GAccelAbsMean < 0.33
+|   |   |   |   |   GAccelVariance < 0
+|   |   |   |   |   |   GAccelAbsMean < 0.09 : 0 (14/0) [10/1]
+|   |   |   |   |   |   GAccelAbsMean >= 0.09 : 2 (4/1) [1/0]
+|   |   |   |   |   GAccelVariance >= 0
+|   |   |   |   |   |   SpanVelocity < 1.75
+|   |   |   |   |   |   |   GAccelEnergy < 0 : 2 (120/16) [58/7]
+|   |   |   |   |   |   |   GAccelEnergy >= 0
+|   |   |   |   |   |   |   |   MedianVelocity < 1.52
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.57
+|   |   |   |   |   |   |   |   |   |   GAccelEnergy < 0.01 : 2 (19/2) [11/1]
+|   |   |   |   |   |   |   |   |   |   GAccelEnergy >= 0.01 : 0 (5/2) [5/2]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.57 : 0 (29/8) [19/7]
+|   |   |   |   |   |   |   |   MedianVelocity >= 1.52 : 2 (22/1) [13/4]
+|   |   |   |   |   |   SpanVelocity >= 1.75
+|   |   |   |   |   |   |   GAccelMean < 9.65
+|   |   |   |   |   |   |   |   GAccelEnergy < 0.01 : 2 (22/4) [13/3]
+|   |   |   |   |   |   |   |   GAccelEnergy >= 0.01 : 1 (3/1) [1/0]
+|   |   |   |   |   |   |   GAccelMean >= 9.65 : 2 (38/2) [18/2]
+|   |   |   |   GAccelAbsMean >= 0.33
+|   |   |   |   |   MedianVelocity < 1.77
+|   |   |   |   |   |   GAccelMean < 10.25
+|   |   |   |   |   |   |   GAccelEnergy < 0.01 : 1 (4/1) [0/0]
+|   |   |   |   |   |   |   GAccelEnergy >= 0.01
+|   |   |   |   |   |   |   |   GAccelMean < 9.32
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.3 : 2 (6/2) [3/2]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.3 : 0 (4/2) [0/0]
+|   |   |   |   |   |   |   |   GAccelMean >= 9.32
+|   |   |   |   |   |   |   |   |   SpanVelocity < 1.46
+|   |   |   |   |   |   |   |   |   |   GAccelEnergy < 0.01 : 2 (7/1) [2/0]
+|   |   |   |   |   |   |   |   |   |   GAccelEnergy >= 0.01
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.49 : 0 (64/10) [42/16]
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.49
+|   |   |   |   |   |   |   |   |   |   |   |   SpanVelocity < 0.97
+|   |   |   |   |   |   |   |   |   |   |   |   |   GAccelAbsMean < 0.63
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.73
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelEnergy < 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelAbsMean < 0.35 : 2 (3/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelAbsMean >= 0.35 : 0 (7/2) [4/2]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelEnergy >= 0.02 : 2 (13/0) [7/4]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.73
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean < 10.13
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelEnergy < 0.02 : 0 (9/0) [2/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelEnergy >= 0.02
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.79 : 0 (4/0) [0/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.79 : 2 (7/2) [4/1]
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 10.13 : 2 (7/2) [0/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   GAccelAbsMean >= 0.63 : 0 (38/10) [18/3]
+|   |   |   |   |   |   |   |   |   |   |   |   SpanVelocity >= 0.97 : 0 (33/10) [11/2]
+|   |   |   |   |   |   |   |   |   SpanVelocity >= 1.46 : 2 (19/6) [15/6]
+|   |   |   |   |   |   GAccelMean >= 10.25
+|   |   |   |   |   |   |   GAccelEnergy < 0.07
+|   |   |   |   |   |   |   |   SpanVelocity < 0.55 : 0 (2/0) [1/0]
+|   |   |   |   |   |   |   |   SpanVelocity >= 0.55 : 1 (4/1) [4/2]
+|   |   |   |   |   |   |   GAccelEnergy >= 0.07 : 2 (2/1) [1/0]
+|   |   |   |   |   MedianVelocity >= 1.77
+|   |   |   |   |   |   GAccelAbsMean < 0.59
+|   |   |   |   |   |   |   GAccelVariance < 0.15 : 2 (28/8) [17/4]
+|   |   |   |   |   |   |   GAccelVariance >= 0.15
+|   |   |   |   |   |   |   |   MedianVelocity < 2.28 : 1 (25/7) [15/10]
+|   |   |   |   |   |   |   |   MedianVelocity >= 2.28
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.55
+|   |   |   |   |   |   |   |   |   |   GAccelMean < 9.49
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.47
+|   |   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.39 : 2 (4/1) [2/1]
+|   |   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.39 : 1 (9/0) [3/2]
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.47 : 2 (3/0) [2/1]
+|   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.49 : 1 (8/0) [1/0]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.55
+|   |   |   |   |   |   |   |   |   |   SpanVelocity < 2.25
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.74
+|   |   |   |   |   |   |   |   |   |   |   |   MedianVelocity < 2.71
+|   |   |   |   |   |   |   |   |   |   |   |   |   MedianVelocity < 2.4 : 1 (4/2) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   |   |   MedianVelocity >= 2.4 : 2 (5/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   |   MedianVelocity >= 2.71 : 1 (7/1) [1/1]
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.74 : 2 (8/0) [2/0]
+|   |   |   |   |   |   |   |   |   |   SpanVelocity >= 2.25 : 0 (12/8) [5/3]
+|   |   |   |   |   |   GAccelAbsMean >= 0.59
+|   |   |   |   |   |   |   SpanVelocity < 1.53 : 0 (39/12) [20/5]
+|   |   |   |   |   |   |   SpanVelocity >= 1.53
+|   |   |   |   |   |   |   |   GAccelAbsMean < 0.68 : 1 (19/11) [16/6]
+|   |   |   |   |   |   |   |   GAccelAbsMean >= 0.68
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.76
+|   |   |   |   |   |   |   |   |   |   SpanVelocity < 1.87 : 0 (7/3) [6/2]
+|   |   |   |   |   |   |   |   |   |   SpanVelocity >= 1.87
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean < 9.69 : 1 (22/2) [11/2]
+|   |   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.69 : 0 (2/1) [1/0]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.76 : 1 (17/0) [12/5]
+|   |   GAccelAbsMean >= 1 : 0 (923/77) [427/33]
+|   SpanVelocity >= 2.62
+|   |   MedianVelocity < 6.19
+|   |   |   GAccelVariance < 0.27
+|   |   |   |   GAccelVariance < 0 : 0 (78/4) [33/0]
+|   |   |   |   GAccelVariance >= 0
+|   |   |   |   |   GAccelEnergy < 0.01 : 2 (112/3) [51/5]
+|   |   |   |   |   GAccelEnergy >= 0.01
+|   |   |   |   |   |   MedianVelocity < 4.62
+|   |   |   |   |   |   |   GAccelMean < 9.48 : 2 (36/6) [15/5]
+|   |   |   |   |   |   |   GAccelMean >= 9.48
+|   |   |   |   |   |   |   |   SpanVelocity < 4.52
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.65
+|   |   |   |   |   |   |   |   |   |   GAccelMean < 9.54
+|   |   |   |   |   |   |   |   |   |   |   MedianVelocity < 2.5 : 2 (2/0) [1/0]
+|   |   |   |   |   |   |   |   |   |   |   MedianVelocity >= 2.5 : 1 (16/4) [10/5]
+|   |   |   |   |   |   |   |   |   |   GAccelMean >= 9.54 : 1 (21/1) [15/5]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.65
+|   |   |   |   |   |   |   |   |   |   GAccelVariance < 0.19 : 2 (17/5) [4/1]
+|   |   |   |   |   |   |   |   |   |   GAccelVariance >= 0.19 : 1 (10/1) [4/1]
+|   |   |   |   |   |   |   |   SpanVelocity >= 4.52 : 2 (11/2) [5/1]
+|   |   |   |   |   |   MedianVelocity >= 4.62 : 2 (70/4) [34/3]
+|   |   |   GAccelVariance >= 0.27
+|   |   |   |   GAccelAbsMean < 1.31
+|   |   |   |   |   GAccelAbsMean < 0.67
+|   |   |   |   |   |   SpanVelocity < 5.06
+|   |   |   |   |   |   |   GAccelAbsMean < 0.47
+|   |   |   |   |   |   |   |   SpanVelocity < 4.06
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.74
+|   |   |   |   |   |   |   |   |   |   MedianVelocity < 3.54 : 2 (4/2) [1/0]
+|   |   |   |   |   |   |   |   |   |   MedianVelocity >= 3.54 : 1 (7/0) [3/1]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.74 : 2 (4/0) [1/0]
+|   |   |   |   |   |   |   |   SpanVelocity >= 4.06 : 2 (8/0) [3/1]
+|   |   |   |   |   |   |   GAccelAbsMean >= 0.47 : 1 (188/35) [77/13]
+|   |   |   |   |   |   SpanVelocity >= 5.06
+|   |   |   |   |   |   |   GAccelEnergy < 0.03 : 2 (30/3) [17/7]
+|   |   |   |   |   |   |   GAccelEnergy >= 0.03
+|   |   |   |   |   |   |   |   GAccelAbsMean < 0.59 : 2 (4/0) [4/0]
+|   |   |   |   |   |   |   |   GAccelAbsMean >= 0.59
+|   |   |   |   |   |   |   |   |   GAccelMean < 9.77
+|   |   |   |   |   |   |   |   |   |   SpanVelocity < 5.48 : 1 (5/1) [1/0]
+|   |   |   |   |   |   |   |   |   |   SpanVelocity >= 5.48 : 2 (7/2) [1/0]
+|   |   |   |   |   |   |   |   |   GAccelMean >= 9.77 : 1 (6/0) [2/0]
+|   |   |   |   |   GAccelAbsMean >= 0.67
+|   |   |   |   |   |   GAccelVariance < 0.95 : 1 (213/7) [124/16]
+|   |   |   |   |   |   GAccelVariance >= 0.95
+|   |   |   |   |   |   |   MedianVelocity < 2.73
+|   |   |   |   |   |   |   |   GAccelEnergy < 0.1 : 1 (12/5) [9/4]
+|   |   |   |   |   |   |   |   GAccelEnergy >= 0.1 : 0 (3/0) [4/1]
+|   |   |   |   |   |   |   MedianVelocity >= 2.73 : 1 (455/78) [236/33]
+|   |   |   |   GAccelAbsMean >= 1.31
+|   |   |   |   |   SpanVelocity < 3.77 : 0 (106/22) [61/15]
+|   |   |   |   |   SpanVelocity >= 3.77
+|   |   |   |   |   |   GAccelAbsMean < 2.3
+|   |   |   |   |   |   |   MedianVelocity < 3.86
+|   |   |   |   |   |   |   |   SpanVelocity < 4.04 : 1 (5/1) [5/3]
+|   |   |   |   |   |   |   |   SpanVelocity >= 4.04
+|   |   |   |   |   |   |   |   |   GAccelAbsMean < 1.79
+|   |   |   |   |   |   |   |   |   |   MedianVelocity < 3.61 : 1 (3/0) [3/0]
+|   |   |   |   |   |   |   |   |   |   MedianVelocity >= 3.61 : 0 (6/1) [2/0]
+|   |   |   |   |   |   |   |   |   GAccelAbsMean >= 1.79 : 0 (6/0) [0/0]
+|   |   |   |   |   |   |   MedianVelocity >= 3.86 : 1 (150/14) [67/9]
+|   |   |   |   |   |   GAccelAbsMean >= 2.3 : 0 (9/3) [5/2]
+|   |   MedianVelocity >= 6.19
+|   |   |   GAccelAbsMean < 0.94
+|   |   |   |   GAccelAbsMean < 0.06 : 0 (17/0) [11/0]
+|   |   |   |   GAccelAbsMean >= 0.06 : 2 (701/34) [363/15]
+|   |   |   GAccelAbsMean >= 0.94
+|   |   |   |   SpanVelocity < 7.11 : 1 (36/13) [31/8]
+|   |   |   |   SpanVelocity >= 7.11 : 2 (83/17) [34/3]
+GAccelEnergy >= 1.33
+|   GAccelVariance < 40.29
+|   |   GAccelMean < 11.6
+|   |   |   SpanVelocity < 1.86 : 0 (3/0) [7/3]
+|   |   |   SpanVelocity >= 1.86 : 3 (13/4) [5/3]
+|   |   GAccelMean >= 11.6 : 3 (17/1) [4/0]
+|   GAccelVariance >= 40.29
+|   |   GAccelVariance < 227.43 : 3 (1037/0) [526/4]
+|   |   GAccelVariance >= 227.43
+|   |   |   MedianVelocity < 3.78 : 3 (4/0) [2/0]
+|   |   |   MedianVelocity >= 3.78 : 0 (2/0) [1/0]
